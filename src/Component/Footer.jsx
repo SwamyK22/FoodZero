@@ -12,7 +12,7 @@ function Footer() {
             </div>
             <div className='w-[45%] h-[50%] flex flex-col justify-between'>
                 <p className="font-semibold text-white text-2xl font-['Rufina']">Never Miss a Recipe</p>
-                <div className='flex items-center justify-between w-[90%]'>
+                <div className='flex md:flex-row flex-col items-center justify-between w-[90%]'>
                     <input className='w-80 h-16 bg-[#233000] border-2 px-5' type="email" placeholder='Email Address' />
                     <button className="bg-[#5E6600] text-white w-44 h-16 text-2xl font-['Rufina']">Subscribe</button>
                 </div>
