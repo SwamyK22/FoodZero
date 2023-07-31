@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex bg-black items-center justify-between px-4">
+    <div className="flex items-center justify-between px-4">
       <div className="flex items-center">
       <svg
         width="280"
