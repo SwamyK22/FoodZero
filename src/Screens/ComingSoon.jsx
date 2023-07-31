@@ -1,7 +1,5 @@
 import React from "react";
 import bg from "../assets/comingsoonbg.png";
-import logo from "../assets/Logo.png";
-import list from "../assets/list-icon.png";
 import Header from "../Component/Header";
 
 const ComingSoon = () => {
