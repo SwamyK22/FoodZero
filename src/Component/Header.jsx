@@ -2,13 +2,15 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="bg-[#233000]">
+    <div className="flex bg-black items-center justify-between px-4">
+      <div className="flex items-center">
       <svg
         width="280"
-        height="50"
-        viewBox="0 0 280 120"
+        height="70"
+        viewBox="0 0 310 110"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="h-16 sm:h-24 w-20 sm:w-40"
       >
         <path
           fill-rule="evenodd"
@@ -49,6 +51,12 @@ function Header() {
           fill="white"
         />
       </svg>
+      <img src={require('../assets/more.png')} alt="moreButton" className="h-7 sm:h-12"/>
+      </div>
+      <div className="flex items-center font-['Rufina'] gap-2 sm:gap-10 sm:pr-16 text-white">
+        <h3 className="text-xs sm:text-lg">+91 6784637723</h3>
+        <button className="text-xs border-2 border-white h-6 w-20 sm:text-lg sm:h-12 sm:w-36">Reservations</button>
+      </div>
     </div>
   );
 }
