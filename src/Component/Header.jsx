@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="fixed w-full flex items-center justify-between px-4">
+    <div className="absolute top-0 w-full flex items-center justify-between px-4">
       <div className="flex items-center">
       <svg
         width="280"

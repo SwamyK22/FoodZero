@@ -5,6 +5,8 @@ import DashboardLayout from './layout/DashboardLayout';
 import Home from './Screens/Home';
 import CoverScreen from './Screens/CoverScreen';
 import ContactPage from './Screens/ContactPage';
+import About from './Screens/About';
+import Menu from './Screens/Menu';
 
 function App() {
   
@@ -24,6 +26,14 @@ function App() {
         {
           path:'Contact',
           element: <ContactPage />
+        },
+        {
+          path:'Menu',
+          element: <Menu />
+        },
+        {
+          path:'About',
+          element: <About />
         },
       ]
     }
