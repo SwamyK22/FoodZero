@@ -7,6 +7,7 @@ import CoverScreen from './Screens/CoverScreen';
 import ContactPage from './Screens/ContactPage';
 import About from './Screens/About';
 import Menu from './Screens/Menu';
+import Blogs from './Screens/Blogs';
 
 function App() {
   
@@ -34,6 +35,10 @@ function App() {
         {
           path:'About',
           element: <About />
+        },
+        {
+          path:'blogsOne',
+          element: <Blogs />
         },
       ]
     }

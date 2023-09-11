@@ -10,7 +10,7 @@ const ComingSoon = () => {
       </div>
       <div className="absolute opacity-40 w-[100vw] min-h-screen bg-green-400"></div>
 
-      <Header />
+      <Header />  
       <div className="absolute top-40 text-center w-full">
         <h1 className="text-6xl border-b-4 border-dotted border-white text-white">
           COMING SOON
